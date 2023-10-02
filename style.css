@@ -1,0 +1,213 @@
+@media (max-width:725px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav .button{
+        display: flex;
+    }
+
+    .sm,
+    form,
+    .loc {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+
+    .ic i {
+        font-size: 40px; 
+    }
+
+    .info {
+        width: 90%;
+        text-align: left;
+    }
+
+    #adm{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+body{
+    background: black;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0,0.75)),url(/images/vit-vellore.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav img{
+    height: 100px;
+}
+
+nav a{
+    background:rgba(255, 255, 255, 0.922) ;
+    color:black;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover{
+    background-color: rgb(57, 57, 57);
+    color: rgb(193, 193, 193);
+}
+
+header{
+    text-align:center;
+}
+
+#adm{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+#adm a{
+    background:rgba(255, 255, 255, 0.922) ;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
+#adm a:hover{
+    background-color: rgb(57, 57, 57);
+    color: rgb(193, 193, 193);
+    transform: scale(1.5);
+}
+
+.ic i{
+    color:black;
+    font-size:90px;
+    justify-content: start;
+    transition: color 0.3s;
+}
+
+.ic i:hover{
+    color: rgb(0, 150, 240);
+}
+
+.icons{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.sm{
+    background:rgba(255, 255, 255, 0.5) ;
+    color:black;
+    padding: 20px;
+    margin: auto;
+    width:90%;
+    text-align: center;
+}
+
+form{
+    background:rgba(255, 255, 255, 0.5) ;
+    color:black;
+    padding: 20px;
+    margin: auto;
+    width:90%;
+    text-align: center;
+
+}
+
+#cu {
+    justify-content: space-around;
+}
+
+.loc {
+    display: flex;
+    justify-content: space-around;
+    background:rgba(255, 255, 255, 0.5) ;
+    color:black;
+    padding: 20px;
+    margin: auto;
+    width:90%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33rem;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contacthead{
+    background-color: darkblue;
+}
+
+#btt{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#btt:hover{
+    color: rgb(0, 150, 240);
+}
+
+footer{
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#events{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#events h1{
+    text-align: center;
+}
